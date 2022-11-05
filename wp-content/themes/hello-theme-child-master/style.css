@@ -1,0 +1,438 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+
+
+header.page-header {
+    display: none;
+}.elementor-slide-heading {background: rgba(255, 255, 255, 0.07);
+border-radius: 4px;display: inline-block;padding: 10px 15px;font-weight: 500 !important;
+font-size: 16px !important;}.slide-dta h2 {font-weight: 700;
+font-size:40px  !important;
+line-height: 60px;
+font-family: Palatino Linotype;}
+
+.slide-dta p {font-weight: 400;
+font-size:22px !important;
+line-height: 28px;margin: 12px 0 0;     font-family: "OpenSauceSans", sans-serif;}
+.frm-title h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 23px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.frm-title {
+    background: #0A285B;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.frm-title h2 strong {font-size: 20px;}
+
+.row.con-rw {display: flex;flex-wrap: wrap;}
+.re-cpt {
+    margin: 0 0 0 6px;
+}
+.con-rw .col-md-6 {
+    width: 47%;
+    margin: 0 5px 15px;
+}
+.re-cpt.dfe {
+    margin-bottom: 15px;
+}
+.con-rw .col-md-6 input {
+    width: 100%;
+    border: 1px solid #E9E9E9;
+    font-size: 13px;
+	  font-weight: 400;
+    line-height: 17px;
+	  color:#3C3C3C;
+}
+.contact-frm {
+    background: #fff;
+    padding: 20px;
+}
+.row.con-rw .col-md-12 {
+    width: 97%;
+    margin: 0 5px 12px;
+}
+.con-rw .col-md-12 input {
+    border: 1px solid #E9E9E9;
+    font-size: 13px;
+    line-height: 17px;
+	  color:#3C3C3C;
+}
+.con-rw textarea {
+    border: 1px solid #E9E9E9;
+    height: 118px !important;
+	  color:#3C3C3C;
+}
+.con-rw select {
+    color: #3C3C3C;
+    border: 1px solid #E9E9E9;
+    font-size: 13px;
+    line-height: 17px;
+}
+.subm-btn input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 7px;
+}
+span.wpcf7-spinner {
+    display: none;
+}
+.add-detl {
+    border-bottom: 1px solid #FFFFFF12;
+}
+.blg-meta .elementor-post__meta-data {
+    display: none;
+}
+.blg-meta .elementor-post__text {
+    background: #FFFFFF;
+    padding: 20px;
+    max-width: 350px;
+    position: relative;
+    top: -80px;
+    z-index: 99;
+    margin: 0 auto;
+    box-shadow: 0px 17px 27px rgb(0 0 0 / 7%);
+}
+.scrl-list ul li {
+    background: #FFFFFF;
+    margin-bottom: 14px !important;
+    box-shadow: 0px 17px 27px rgb(0 0 0 / 7%);
+	padding: 17px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.scrl-list ul {
+    list-style: none;
+    padding: 0;
+}
+.frau-hov h2 a:hover {
+    color: #C72344 !important;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    height: 20% !important;
+}
+.fed-ont {
+    border-top: 3px solid #C60C30;
+}
+.min-slider .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+    bottom: 30px;
+}
+button.hide-1-yes {
+    display: none;
+}
+.clm-no a {
+    color: #FFFFFF;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 5px !important;
+}
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #F7F7F7 !important;
+}
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #A4A4A4 !important;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px !important;
+}
+.dete-reow strong {
+    color: #3C3C3C;
+    font-size: 18px;
+    font-weight:800;
+}
+.add-detl .elementor-column.elementor-col-33 {
+    border: 1px solid #FFFFFF12;
+    border-top: none;
+    border-bottom: none;
+}
+.add-detl .elementor-widget-wrap.elementor-element-populated {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.ph-que h1.elementor-icon-box-title {
+    display: none;
+}
+.bt-exp ul li a {
+    background: #0A285B;
+    padding: 8px 65px;
+}
+.docm a {
+    padding: 12px 37px !important;
+}
+.mem-adv {
+    margin-bottom: 0 !important;
+}
+.frau-hov .elementor-widget-container {
+    min-height: 177px;
+}.elementor-slide-heading {background: #0A285B;}
+
+.slide-dta.blck-dt h2 {color: #1A1A1A;}
+.frau-hov .elementor-widget-container h2 {
+    width: 100%;
+}
+.slide-dta.blck-dt p {color: #3C3C3C;}
+.ph-que .elementor-icon-box-icon {
+    margin-top: 5px;
+}
+.mn .col-md-6 {
+    width: 48%;
+}
+.mn .col-md-12 {
+    width: 98% !important;
+}
+.mn .col-md-6 input {
+    line-height: 24px;
+}
+.mn select {
+    height: 42px;
+}
+.subm-rw input {
+    padding: 10px 60px !important;
+	margin: 0 5px;
+}
+.inc-em strong {
+    color: #C60C30;
+    font-weight: 700;font-size: 26px;
+}
+.inc-em p {
+    margin-bottom: 0 !important;
+}
+.call-proc a {
+    color: #FFFFFF;
+}
+.stand-spect h2 {
+    font-size: 26px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.client-bs .elementor-widget-container {
+    min-height: 111px;
+}
+.inc-em h2 {
+    color: #1A1A1A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+font-family: "OpenSauceSans", Sans-serif;
+	margin-bottom: 10px;
+}
+.frau-ident .elementor-swiper-button-prev {
+    left: 10%;
+}
+.frau-ident .elementor-swiper-button-next {
+    right: 10%;
+}
+.frau-ident .elementor-slide-heading span.blck-dt-bg {
+    background: rgba(255, 255, 255, 0.07);
+    padding: 10px 15px;
+    margin-left: -14px;
+	  border-radius: 4px;
+}
+.specmin h2 a:hover {
+    color: #183870 !important;
+}
+.sticky-hdr {
+    box-shadow: 0px 10px 13px 0px #0000000f;
+    z-index: 999;
+}
+
+@media (max-width: 767px) {
+.slide-dta h2 {
+    font-size: 15px !important;
+    line-height: 29px;
+    margin-bottom: 0px;
+}
+.slide-dta p {
+    font-size: 14px !important;
+    line-height: 24px;
+    margin: 5px 0 0;
+}
+.min-slider .elementor-slide-description {
+    margin-bottom: 16px !important;
+}	
+.min-slider .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+    bottom: 15px;
+}	
+.min-slider .elementor-button.elementor-slide-button.elementor-size-lg {
+    padding: 10px 20px;
+}	.con-rw .col-md-6 {
+    width: 100%;
+}
+	.blg-meta .elementor-post__text {
+    top: -1px;
+}
+.bt-exp ul li a {
+    padding: 8px 21px;
+}	
+.bt-exp ul li{
+	 margin: 0 3px !important;	
+	}	
+.docm a {
+    padding: 11px 8px !important;
+}	
+.bt-exp ul {
+    margin: 0 !important;
+}
+	.docm ul{margin: 0!important}	
+.cherry-ico ul li {
+    margin: 0px 30px 8px !important;
+}
+.stand-spect h2 {
+    font-size: 20px;
+}	
+.base-tite h2 br {
+    display: none;
+}
+.ph-que p br {
+    display: none;
+}	
+.ph-que .elementor-icon-box-icon {
+    margin-top: 0px;
+}	
+.frm-title h2 strong {
+    font-size: 16px;}	
+.frm-title h2 {
+    font-size: 13px;
+}	
+.foren-doc h2 br {
+    display: none;
+}	
+.add-detl .elementor-column.elementor-col-33 {
+    border: none;
+}	
+.frau-ident .elementor-swiper-button-next {
+    right: 3%;
+}
+.frau-ident .elementor-swiper-button-next {
+    right: 3%;
+}	
+.fix-botm {
+    position: fixed;
+    bottom: 0;
+	z-index: 99;
+    width: 100%;
+}	
+span.bgtxt {
+    font-size: 25px !important;
+}
+.frau-ident .elementor-swiper-button-prev {
+    left: 5%;
+}.elementor-slide-heading {
+    font-size: 13px !important;
+}.frau-hov .elementor-widget-container {
+    min-height: 120px;
+    padding: 44px 80px !important;
+}
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.slide-dta h2 {
+    font-size: 25px !important;
+    line-height: 45px;}
+.slide-dta p {
+    font-size: 24px !important;
+	  margin: 0px 0 0;
+}
+span.bgtxt {
+    font-size: 50px;
+}	
+.con-rw .col-md-6 {
+    width: 46%;
+    margin: 0 4px 15px;
+}
+.frm-title h2 strong {
+    font-size: 15px;
+}	
+.frm-title h2 {
+    font-size: 12px;
+}	
+.contact-frm {
+    padding: 12px;
+}	
+.blg-meta .elementor-post__text {
+    max-width: 300px;
+    top: -42px;
+	  padding: 12px;
+	min-height: 210px;
+}	
+.bt-exp ul li a {
+    padding: 8px 30px;
+}	
+.docm a {
+    padding: 12px 13px !important;
+}	
+.ph-que .elementor-icon-box-icon {
+    margin-top: 0;
+}	
+.mn .col-md-6 {
+    width: 48% !important;
+}	
+.frau-ident .elementor-swiper-button-next {
+    right: 0;
+}	
+.rt-wpls .slick-slide img {
+    height: 130px !important;
+}	
+.news-slid .single-logo-container {
+    min-height: 310px;
+}		
+.forg-roll img.attachment-full.size-full {
+    height: 135px;
+}	
+.re-cpt {
+    width: 100%;
+    overflow-x: scroll;
+}	
+	
+	
+}
+
+.about-infofr .contact-frm {
+    box-shadow: 0 0 5px #ddd;
+}
+.forg-roll img.attachment-full.size-full {
+    height: 130px;
+}
+.forg-roll .elementor-widget-container {
+    min-height:290px;
+}
+span.blck-dt-bg.bn {
+    color: #fff;
+    background: #0a285b !important;
+    padding: 0 3px !important;
+    margin: 0 !important;
+}
+.frau-ident a {
+    border-color: #c72344 !important;
+    color: #fff !important;
+}.servf .elementor-widget-container:hover {background: #4069b1 !important;color: #fff !important;}
+
+.servf .elementor-widget-container:hover h2 a {color: #fff;}
